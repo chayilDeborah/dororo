@@ -8,7 +8,7 @@ import bitcoin from '../assets/bitcoin.svg'
 
 const About = () => {
    return (
-   <main className='flex justify-center mt-[98px] lg:mt-[118px] text-white ' id='about'>
+   <main className='flex justify-center mt-[98px] lg:mt-[218px] text-white ' id='about'>
 <section className='flex justify-between lg:flex-row flex-col-reverse w-[95%] mx-auto text-[#FFFFFF] text-center lg:text-left  '>
     <Image src={about} alt='about-us img' className='lg:w-[600px]  w-[95%] lg:mx-[0px] mx-auto'data-aos="fade-right" />
     <div className='lg:ml-[100px] ' data-aos="fade-left">
