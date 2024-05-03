@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
   return (
-   <nav className="flex mx-auto lg:w-[95%] justify-between my-[37px] text-white">
+   <nav className="flex justify-center mx-auto w-[95%] justify-between my-[37px] text-white">
 			<Link href="/">
       <section className='flex '>
 	<Image src={logo} alt='logo' className='lg:mr-[13px] mr-[5px] lg:w-[60px] w-[30px] ' />

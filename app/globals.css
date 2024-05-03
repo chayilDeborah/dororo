@@ -6,3 +6,7 @@ html {
   background: radial-gradient(60.67% 61.22% at 54.53% 42.49%, #1A0351 0%, #07071C 95.31%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 height: 100%;
 }
+.launch {
+  background: linear-gradient(94.54deg, #9ADBEC 0%, #9F9ADB 58.45%, #A27BD3 90.51%);
+
+}
