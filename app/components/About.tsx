@@ -28,9 +28,10 @@ const About = () => {
                 <p className='text-[16px] lg:text-[20px] leading-[24px] lg:leading-[30px] ml-[21px] ' >Fully decentralized and non-custodial</p>
             </section>
             <section className='flex lg:mt-[44px] mt-[30px] mb-[50px] '>
-                <Image src={webkit} alt='webkit-img' className='' />
+                <Image src={bitcoin} alt='bitcoin-img' className='' />
                 <p className='text-[16px] lg:text-[20px] leading-[24px] lg:leading-[30px] ml-[21px] ' >Constant reviews and testing of our platform</p>
             </section>
+
 
         </div>
     </div>
