@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ca = () => {
   return (
-    <main className='flex justify-center'>
+    <main className='flex justify-center lg:mt-[76px] mt-[40px] '>
         <section className='w-[92%]  '>
             <div className='ca h-[5px] '></div>
             <div className='bg-[#16063B] text-center '>
