@@ -5,10 +5,10 @@
 body {
     background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1714742410/snp_unda4j.svg);
     background-size: cover;
-    background-position: center;
-    background-blend-mode: normal;
+    /* background-position: center;  */
     color: #fff;
-  
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0);
 }
 .launch {
   background: linear-gradient(94.54deg, #9ADBEC 0%, #9F9ADB 58.45%, #A27BD3 90.51%);

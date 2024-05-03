@@ -13,7 +13,7 @@ const Services = () => {
     <main className='flex justify-center mt-[160px] lg:mt-[196px] overflow-hidden ' data-aos="fade-right">
           <section className=' w-[95%] mx-auto text-[#FFFFFF] text-center lg:mb-[220px] '>
           <h1 className='text-[25px] lg:text-[45px] leading-[45px] lg:leading-[67.5px] font-semibold ' >Built on Bob Owned by you</h1>
-          <p className='text-[16px] lg:text-[21px] leading-[28px] lg:leading-[39px] mt-[12px] mb-[123px] w-[96%] mx-auto  lg:w-[70%] '>Lorem ipsum dolor sit amet consectetur. Nisl vulputate faucibus mauris elementum quam lacus mauris vulputate risus. Integer lobortis amet quam elementum. Dictumst aliquet integer eu et nibh lorem. Vel ac adipiscing penatibus rhoncus aenean.</p>
+          <p className='text-[16px] lg:text-[21px] leading-[28px] lg:leading-[39px] mt-[12px] mb-[123px] w-[96%] mx-auto  lg:w-[70%] '>Dororo Bot, built on Bobchain and owned by our team, revolutionizes cryptocurrency trading with its innovative features. Leveraging Bobchain&apos;s hybrid Layer 2 infrastructure, Dororo Bot ensures enhanced security and liquidity. Users benefit from real-time market data, customizable trading strategies, and advanced risk management tools. With Dororo Bot, traders can optimize their performance confidently on our platform, powered by Bobchain&apos;s cutting-edge technology</p>
           <Image src={bob} alt='bob' className='' />
           <div className='lg:flex justify-between'>
             <div>

@@ -29,7 +29,7 @@ const Footer = () => {
                         <Link href='#'>
                             <Image src={linkedin} alt='linkedin' className='mx-auto' />
                         </Link>
-                        <Link href='#'>
+                        <Link href='https://x.com/DororoTradeBot?t=CPkAuxmqC630DxwqNXdMaQ&s=09'>
                             <Image src={twitter} alt='twitter' className='mx-auto' />
                         </Link>
                         <Link href='#'>
