@@ -21,25 +21,25 @@ const Services = () => {
                 <section className='mt-[24px] lg:mt-[46px] '>
                     <div className='flex lg:w-full w-[93%] lg:mx-[0px] mx-auto'>
                         <Image src={chart} alt='chart' className='w-[28px] lg:w-[30px] ' />
-                        <p className='text-[15px] lg:text-[20px] leading-[28px] lg:leading-[30px] my-auto ml-[6px] lg:ml-[18px] '>Say goodbye to eye-watering gas fees</p>
+                        <p className='text-[15px] lg:text-[20px] leading-[28px] lg:leading-[30px] my-auto ml-[10px] lg:ml-[18px] '>Say goodbye to eye-watering gas fees</p>
                     </div>
                     <div className='flex lg:w-full w-[93%] lg:mx-[0px] mx-auto my-[18px] '>
                         <Image src={eye} alt='chart' className='w-[28px] lg:w-[30px] ' />
-                        <p className='text-[15px] lg:text-[20px] leading-[28px] lg:leading-[30px] my-auto ml-[6px] lg:ml-[18px] '>Execute your trades instantly</p>
+                        <p className='text-[15px] lg:text-[20px] leading-[28px] lg:leading-[30px] my-auto ml-[10px] lg:ml-[18px] '>Execute your trades instantly</p>
                     </div>
                     <div className='flex lg:w-full w-[93%] lg:mx-[0px] mx-auto'>
                         <Image src={fly} alt='chart' className='w-[28px] lg:w-[30px] ' />
-                        <p className='text-[15px] lg:text-[20px] leading-[28px] lg:leading-[30px] my-auto ml-[6px] lg:ml-[18px] '>Trade from any device</p>
+                        <p className='text-[15px] lg:text-[20px] leading-[28px] lg:leading-[30px] my-auto ml-[10px] lg:ml-[18px] '>Trade from any device</p>
                     </div>
                     <div className='flex lg:w-full w-[93%] lg:mx-[0px] mx-auto mt-[18px] '>
                         <Image src={pie} alt='chart' className='w-[28px] lg:w-[30px] h-[28px] lg:h-[30px] my-auto' />
-                        <p className='text-[15px] lg:text-[20px] leading-[24px] text-left lg:leading-[30px] my-auto ml-[6px] lg:ml-[18px] '>Gain leveraged exposure on unique token pairs</p>
+                        <p className='text-[15px] lg:text-[20px] leading-[24px] text-left lg:leading-[30px] my-auto ml-[10px] lg:ml-[18px] '>Gain leveraged exposure on unique token pairs</p>
                     </div>
 
                 </section>
             </div>
             {/* <Image src={full} alt='ad' className='' /> */}
-            <Image src={mobileful} alt='ad' className='lg:mt-[0px] mt-[80px] ' />
+            <Image src={mobileful} alt='ad' className='lg:mt-[0px] mt-[80px] lg:h-[553px] h-[400px] ' />
           </div>
           </section>
 
