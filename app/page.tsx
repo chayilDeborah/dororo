@@ -18,14 +18,14 @@ export default function Home() {
     })
   }, [])
   return (
-    <main className='flex justify-center  '>
+    <main className='flex justify-center lg:pb-[150px]  '>
       <section className='lg:max-w-[1305px] w-full lg:mx-[0px] mx-auto lg:w-full' >
         <div className='relative'>
-          <div className='lg:w-full h-[5600px] lg:h-[6000px] bg-[url("https://res.cloudinary.com/dmye53wps/image/upload/v1714742410/snp_unda4j.svg")] lg:pb-[200px] bg-cover bg-center w-full '>
+          {/* <div className='lg:w-full h-[5600px] lg:h-[6000px] bg-[url("https://res.cloudinary.com/dmye53wps/image/upload/v1714742410/snp_unda4j.svg")] lg:pb-[200px] bg-cover bg-center w-full '> */}
             <div className='absolute w-full lg:mx-[0px] mx-auto flex justify-center '>
               <Homepage />
             </div>
-          </div>
+          {/* </div> */}
         </div>
         
         {/* <Homepage /> */}

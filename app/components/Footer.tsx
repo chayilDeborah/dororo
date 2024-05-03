@@ -12,7 +12,7 @@ import discord from '../assets/discord.svg'
 
 const Footer = () => {
     return (
-        <main className='flex justify-center overflow-hidden mt-[70px] lg:mt-[150px]  ' data-aos="fade-up">
+        <main className='flex justify-center overflow-hidden mt-[70px] lg:mt-[150px] lg:pb-[200px] ' data-aos="fade-up">
             <section className='w-full'>
                 <Image src={doro} alt='logo' className='w-fit mx-auto ' />
                 <div className='border-y-[#968E8E] border-y-[1px] w-[90%] mx-auto lg:w-[1000px] mt-[72px] pt-[44px] pb-[56px] '>
