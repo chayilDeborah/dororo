@@ -11,7 +11,7 @@ const Features = () => {
   return (
     <main className='flex justify-center mt-[160px] lg:mt-[250px]  ' data-aos="fade-up" id='features'>
         <section className='lg:w-full w-[95%] lg:mx-[0px] mx-auto text-[#FFFFFF] text-center '>
-            <h1 className='text-[30px] lg:text-[45px] leading-[45px] lg:leading-[67.5px] font-semibold '>Our Features</h1>
+            <h1 className='text-[30px] lg:text-[45px] leading-[45px] lg:leading-[67.5px] font-semibold lg:mb-[15px] '>Our Features</h1>
             <p className='text-[17px] lg:text-[28px] leading-[35px] lg:leading-[42px] font-semibold lg:w-[70%] w-[95%] mx-auto mb-[49px] '  data-aos="fade-up" >Dororo Bot ensures transparency, security, and autonomy in cryptocurrency trading, aligning with the principles of decentralization and empowering users to take control of their financial future.</p>
             <div className='grid grid-cols-1 lg:grid-cols-3 text-[#968E8E] w-[95%] lg:mx-[0px] mx-auto  lg:w-full text-left'>
                 <div className='text-center w-fit mx-auto lg:mx-[0px] mb-[80px] lg:mb-[115px] '  data-aos="fade-up" data-duration="1400">
