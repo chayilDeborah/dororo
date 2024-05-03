@@ -18,13 +18,13 @@ const Footer = () => {
                 <div className='border-y-[#968E8E] border-y-[1px] w-[90%] mx-auto lg:w-[1000px] mt-[72px] pt-[44px] pb-[56px] '>
                     <section className='grid grid-cols-3 justify-between lg:grid-cols-6 '>
                         <Link href='#'>
-                            <Image src={discord} alt='discord' className='mx-auto' />
+                            <Image src={discord} alt='discord' className='mx-auto lg:mb-[0px] mb-[40px] ' />
                         </Link>
                         <Link href='#'>
-                            <Image src={ring} alt='ring' className='mx-auto' />
+                            <Image src={ring} alt='ring' className='mx-auto lg:mb-[0px] mb-[40px] ' />
                         </Link>
                         <Link href='#'>
-                            <Image src={fire} alt='fire' className='mx-auto' />
+                            <Image src={fire} alt='fire' className='mx-auto lg:mb-[0px] mb-[40px] ' />
                         </Link>
                         <Link href='#'>
                             <Image src={linkedin} alt='linkedin' className='mx-auto' />
