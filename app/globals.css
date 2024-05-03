@@ -15,3 +15,11 @@ background: linear-gradient(90deg, #04D6BD 8.85%, #8A01D7 99.76%);
 
 
 }
+.close {
+  position: fixed;
+  z-index: 1000;
+  /* padding-right: 40px; */
+}
+.launch:hover{
+  background: #A27BD3;
+}

@@ -49,7 +49,7 @@ const Navbar = () => {
 			<section
 				className={`${
 					isMenuOpen
-						? "block fixed  z-50 p-[50px] lg:p-[0px] lg:text-left  text-center bg-[#050505] bg-opacity-500 w-[100%] mx-auto"
+						? "block inset-0 fixed z-50 pb-[50px] pt-[100px] px-[50px] lg:p-[0px] lg:text-left  text-center bg-[#0C072B] bg-opacity-500 w-[100%] mx-auto"
 						: "hidden"
 				} lg:flex font-dm-sans justify-between lg:w-[597px] my-auto `}
 			>
@@ -65,7 +65,7 @@ const Navbar = () => {
 				</Link>
 				<Link href="/#features">
 					<h1 className="lg:my-auto hover:text-[#04D6BD]">
-          Features
+         Our Features
 					</h1>
 				</Link>
 				<Link href="/#services">
