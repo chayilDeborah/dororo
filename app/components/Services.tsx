@@ -10,7 +10,7 @@ import mobileful from '../assets/mobileful.svg'
 
 const Services = () => {
   return (
-    <main className='flex justify-center mt-[160px] lg:mt-[196px] overflow-hidden ' data-aos="fade-right">
+    <main className='flex justify-center mt-[110px] lg:mt-[196px] overflow-hidden ' data-aos="fade-right">
           <section className=' w-[95%] mx-auto text-[#FFFFFF] text-center lg:mb-[220px] '>
           <h1 className='text-[25px] lg:text-[45px] leading-[45px] lg:leading-[67.5px] font-semibold ' >Built on Bob Owned by you</h1>
           <p className='text-[16px] lg:text-[21px] leading-[28px] lg:leading-[39px] mt-[12px] mb-[123px] w-[96%] mx-auto  lg:w-[70%] '>Dororo Bot, built on Bobchain and owned by our team, revolutionizes cryptocurrency trading with its innovative features. Leveraging Bobchain&apos;s hybrid Layer 2 infrastructure, Dororo Bot ensures enhanced security and liquidity. Users benefit from real-time market data, customizable trading strategies, and advanced risk management tools. With Dororo Bot, traders can optimize their performance confidently on our platform, powered by Bobchain&apos;s cutting-edge technology</p>
@@ -39,7 +39,7 @@ const Services = () => {
                 </section>
             </div>
             {/* <Image src={full} alt='ad' className='' /> */}
-            <Image src={mobileful} alt='ad' className='lg:mt-[0px] mt-[80px] lg:h-[553px] h-[400px] ' />
+            <Image src={mobileful} alt='ad' className='lg:mt-[0px] mt-[110px] lg:h-[553px] h-[400px] ' />
           </div>
           </section>
 
