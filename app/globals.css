@@ -3,27 +3,70 @@
 @tailwind utilities;
 
 body {
-    background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1714742410/snp_unda4j.svg);
-    background-size: cover;
-    /* background-position: center;  */
-    color: #fff;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0);
+	background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1735638294/Astra_Banner_avxisv.png);
+	background-size: cover;
+	/* background-position: center;  */
+	color: #fff;
+	background-blend-mode: multiply;
+	/* background-color: #09081d; */
 }
 .launch {
-  background: linear-gradient(94.54deg, #9ADBEC 0%, #9F9ADB 58.45%, #A27BD3 90.51%);
-
+	background: linear-gradient(
+		94.54deg,
+		#9adbec 0%,
+		#9f9adb 58.45%,
+		#a27bd3 90.51%
+	);
 }
 .ca {
-background: linear-gradient(90deg, #04D6BD 8.85%, #8A01D7 99.76%);
-
-
+	background: linear-gradient(90deg, #04d6bd 8.85%, #8a01d7 99.76%);
 }
 .close {
-  position: fixed;
-  z-index: 1000;
-  /* padding-right: 40px; */
+	position: fixed;
+	z-index: 1000;
+	/* padding-right: 40px; */
 }
-.launch:hover{
-  background: #A27BD3;
+.launch:hover {
+	background: #a27bd3;
+}
+
+.bigcard {
+	padding: 80px 40px 40px;
+	border: 1px solid #000;
+	border-radius: 24px;
+	box-shadow: 8px 8px #000;
+	background-color: #462e66;
+}
+.subtitle {
+	font-size: 28px;
+	line-height: 125%;
+	text-shadow: 3px 4px 0 #000;
+	margin-bottom: 24px;
+}
+.join {
+	color: #fff;
+	text-shadow: 6px 3px 0 #000;
+	font-size: 55px;
+	line-height: 90%;
+	margin-bottom: 32px;
+}
+
+.who {
+	font-size: 56px;
+	line-height: 90%;
+	text-shadow: 8px 10px 0px #000;
+}
+.num {
+	font-size: 50px;
+	line-height: 90%;
+	--size: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #000;
+	background-color: #a27bd3;
+	border-radius: 100%;
+	box-shadow: 4px 4px #000;
+	margin-bottom: 24px;
+	text-shadow: 6px 6px 0 #000;
 }

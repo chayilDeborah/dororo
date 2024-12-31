@@ -1,28 +1,28 @@
 "use client";
-import Image from 'next/image'
+import Image from "next/image";
 import React, { useState } from "react";
-import logo from '../assets/logo.png'
+import Alogo from "../assets/Alogo.png";
 import Link from "next/link";
 import menuh from "../assets/menuh.svg";
 import close from "../assets/close.svg";
 
-
 const Navbar = () => {
-
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};
 
-
-  return (
-   <nav className="flex justify-center mx-auto w-[95%] justify-between my-[37px] text-white">
+	return (
+		<nav className="flex justify-center mx-auto w-[95%] justify-between my-[37px] text-white">
 			<Link href="/">
-      <section className='flex '>
-	<Image src={logo} alt='logo' className='lg:mr-[13px] mr-[5px] lg:w-[60px] w-[30px] ' />
-	<h1 className='text-[21px] lg:text-[36px] leading-[29px] font-bold lg:leading-[54px] my-auto '>Dororo</h1>
-</section>
+				<section className="flex ">
+					<Image
+						src={Alogo}
+						alt="logo"
+						className="lg:w-[198px] w-[146px] md:mt-0 -mt-[28px] "
+					/>
+				</section>
 			</Link>
 			<div className="lg:hidden w-[6%] ">
 				<button
@@ -54,33 +54,29 @@ const Navbar = () => {
 				} lg:flex font-dm-sans justify-between lg:w-[597px] my-auto `}
 			>
 				<Link href="/">
-					<h1 className=" lg:my-auto hover:text-[#04D6BD]">
-						Home
-					</h1>
+					<h1 className=" lg:my-auto hover:text-[#04D6BD]">Home</h1>
 				</Link>
-				<Link href="/#about">
+				{/* <Link href="/#about">
 					<h1 className="my-[20px] lg:my-auto hover:text-[#04D6BD] ">
 						About
 					</h1>
-				</Link>
+				</Link> */}
 				<Link href="/#features">
 					<h1 className="lg:my-auto hover:text-[#04D6BD]">
-         Our Features
+						Our Features
 					</h1>
 				</Link>
 				<Link href="/#services">
 					<h1 className="my-[20px] lg:my-auto hover:text-[#04D6BD]">
-          Services
+						Services
 					</h1>
 				</Link>
-        <Link href="/#contact">
-					<h1 className="lg:my-auto hover:text-[#04D6BD]">
-          Contact
-					</h1>
+				<Link href="/#contact">
+					<h1 className="lg:my-auto hover:text-[#04D6BD]">Contact</h1>
 				</Link>
 			</section>
 		</nav>
-  )
-}
+	);
+};
 
-export default Navbar
+export default Navbar;
